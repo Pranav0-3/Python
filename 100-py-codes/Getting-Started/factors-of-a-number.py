@@ -10,9 +10,11 @@ def factor(n):
         if(n % i == 0):
             print(i, end=" ")
         i = i+1
+        
 n = int(input("Enter the number:"))
-print("The factors are: ")
+print("The factors are:")
 factor(n)
+
 
 
 
