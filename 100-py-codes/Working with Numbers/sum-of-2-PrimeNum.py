@@ -32,7 +32,9 @@ for i in range(len(arr)):
     for j in range(i+1, len(arr)):
         if arr[i] + arr[j] == num:
             print(str(arr[i])+ " and " +str(arr[j])+ " are the sum of " +str(num))
+            flag = 1
             break
+            
 if flag == 0:
     print("The sum cant be made with prime number:" +str(num))
 
