@@ -5,17 +5,30 @@
 
 
 num = int(input("Enter a number:"))
-flag = False
+flag = 0
+if num < 2:
+    flag = 1
+else:
+    for i in range(2, int(pow(num,0.5)+1)):
+        if num % i == 0:
+            flag = 1
+            break   
 
-for i in range(2, num+1):
-    if num % i == 0:
-        flag = True
-        break
-
-if flag == True:
+if flag == 1:
     print("Not Prime")
 else:
     print("Prime")
+
+
+
+
+
+
+# def is_prime(n):
+#   for i in range(2,int(pow(n,0.5)+1)):
+#     if (n%i) == 0:
+#       return False
+#   return True
 
 
 

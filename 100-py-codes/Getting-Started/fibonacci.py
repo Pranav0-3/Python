@@ -3,18 +3,18 @@
 
 # Method 1
 
-# num = int(input("Enter number of series you want: "))
-# num1 = 0
-# num2 = 1
+num = int(input("Enter number of series you want: "))
+num1 = 0
+num2 = 1
 
-# print("FIBONACCI SERIES: ", num1, num2, end=" ")
-# for i in range(2, num):
-#     num3 = num1+num2
-#     num1 = num2
-#     num2 = num3
-#     print(num3, end=" ")
+print("FIBONACCI SERIES: ", num1, num2, end=" ")
+for i in range(2, num):
+    num3 = num1+num2
+    num1 = num2
+    num2 = num3
+    print(num3, end=" ")
 
-# print()
+print()
 
 
 
@@ -24,7 +24,7 @@
 
 
 
-## Yield Method:   ## Need to figure yield method with user input()
+## Yield Method:   
 
 def cal(limit):
     a,b = 0,1

@@ -6,17 +6,16 @@
 ### Break down the Nunber using divide operator.
 ### Print the reverse variable
 
-num = int(input("Enter number: "))
-temp = num
-revers = 0
 
-while num > 0:
-    rem = num % 10
-    revers = (revers * 10) + rem
-    num = num // 10
 
-print(revers)
+n = int(input("Enter a number:"))
+rev=0
 
+while n>0:
+    rev = rev * 10 + n % 10
+    n=n//10
+
+print(rev)
 
 
 ## ***********************************************************************************************************

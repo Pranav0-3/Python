@@ -21,3 +21,12 @@ if __name__ == "__main__":
         print("odd")
     else:
         print("Even")
+
+
+
+## *************************************************************************************
+
+
+# 2 Line code
+n = int(input("Enter a number: "))
+print("Even") if (n%2==0) else print("Odd")

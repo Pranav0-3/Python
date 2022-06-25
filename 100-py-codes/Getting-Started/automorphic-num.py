@@ -10,6 +10,11 @@
 # # as the square of the number ends with the number itself, 
 # # It's an Automorphic number.
 
+#understanding process:
+# int = 125
+# int1 = 100
+# i = int%int1
+# print(i)      //25
 
 
 num = int(input("Enter a number:"))
@@ -24,17 +29,20 @@ else:
 
 
 
+
+
+
 ## Using Endswith() Method
 ## The endswith() method returns True if the string ends with the specified value, otherwise False.
 
 
-num1 = int(input("Enter a number: "))
-a = str(num1)
+# num1 = int(input("Enter a number: "))
+# a = str(num1)
 
-num2 = num1**2
-b = str(num2)
+# num2 = num1**2
+# b = str(num2)
 
-if b.endswith(a):
-    print("AUTOMORPHIC")
-else:
-    print("NOT AUTOMORPHIC")
+# if b.endswith(a):
+#     print("AUTOMORPHIC")
+# else:
+#     print("NOT AUTOMORPHIC")

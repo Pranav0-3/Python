@@ -18,7 +18,7 @@ print(sum)
 num1 = int(input("Enter Number: "))
 num2 = int(input("Enter Number: "))
 
-sum = print( (num2*(num2+1)/2) -(num1*(num1+1)/2) + num1)
+sum = print( (num2*(num2+1)/2) - (num1*(num1+1)/2) + num1)
 
 
 
@@ -27,7 +27,7 @@ sum = print( (num2*(num2+1)/2) -(num1*(num1+1)/2) + num1)
 
 
 
-## Method recursion
+# Method recursion
 
 def recursum(sum, n1, n2):
     if n1>n2:

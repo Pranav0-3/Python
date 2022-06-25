@@ -47,7 +47,7 @@ def checkArmstrong(number, length, sum):
 if checkArmstrong(number, length, sum) == num:
     print(num, ": is a Armstrong Number")
 else:
-    print(num, ": is NOT a Armstrong Number")
+    print(num, ": is NOT an Armstrong Number")
 
 
 
