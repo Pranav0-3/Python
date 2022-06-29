@@ -4,6 +4,7 @@ num = input("Enter 4 digit num: ")
 sum = 0
 
 for i in num:
-    sum = sum + int(i)
+    if len(num) < 5:
+        sum = sum + int(i)
 
 print(sum)
