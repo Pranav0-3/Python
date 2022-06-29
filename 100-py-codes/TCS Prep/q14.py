@@ -1,13 +1,13 @@
 # read a string from console and print the count of vowels.
 
-# words = input("Enter a string:")
-# count = 0
+words = input("Enter a string:")
+count = 0
 
-# for i in words:
-#     if i.lower() in ["a","e","i","o","u"]:
-#         count += 1
+for i in words:
+    if i.lower() in ["a","e","i","o","u"]:
+        count += 1
 
-# print(count)
+print(count)
 
 
 
